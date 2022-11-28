@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    margin: 0;
+     
+    background: url("image/panda.png");    
+    background-repeat: no-repeat;
+   background-size: 100vw;
+   background-size: 60vh;
+ 
+    
+}
+.container{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 350px;
+    align-content: center;
+    color: rgb(30, 105, 169);
+    font-weight: bold;
+    font-size: larger;
+    gap: 4px;
+    
+    animation-name: watch;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes watch{
+    10%{
+        color: rgb(4, 80, 55);
+    }
+    40%{
+        color: rgb(251, 98, 16);
+    }
+    80%{
+        color: rgb(100, 18, 176);
+    }
+    100%{
+        color: black;
+    }
+}
+
+
